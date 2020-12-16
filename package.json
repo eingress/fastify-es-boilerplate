@@ -1,0 +1,49 @@
+{
+  "name": "node-babel-boilerplate",
+  "version": "0.1.0",
+  "description": "A minimalist Fastify ES2018 boilerplate with babel, eslint, jest, nodemon, and prettier.",
+  "repository": "https://github.com/eingress/node-es2018-boilerplate.git",
+  "author": "Scott Mathieson <scott@eingress.io>",
+  "license": "ISC",
+  "keywords": [
+    "babel",
+    "eslint",
+    "fastify",
+    "jest",
+    "node",
+    "prettier",
+    "supertest"
+  ],
+  "scripts": {
+    "build": "yarn build:clean && babel src -d dist",
+    "build:clean": "rimraf dist/*",
+    "build:watch": "yarn build -w",
+    "coverage": "jest --collectCoverageFrom=src/**/*.js --coverage",
+    "lint": "eslint './{,{__tests__,src}/**/}*.js' --fix --quiet",
+    "prestart": "yarn build",
+    "start": "node dist/index.js",
+    "start:dev": "NODE_ENV=development nodemon src/index.js",
+    "test": "jest --silent",
+    "test:watch": "jest --silent --watch"
+  },
+  "dependencies": {
+    "fastify": "3.9.2",
+    "fastify-autoload": "3.3.1",
+    "fastify-plugin": "3.0.0"
+  },
+  "devDependencies": {
+    "@babel/cli": "7.12.10",
+    "@babel/core": "7.12.10",
+    "@babel/node": "7.12.10",
+    "@babel/preset-env": "7.12.11",
+    "babel-eslint": "10.1.0",
+    "eslint": "7.15.0",
+    "eslint-config-prettier": "7.0.0",
+    "eslint-plugin-prettier": "3.3.0",
+    "jest": "26.6.3",
+    "nodemon": "2.0.6",
+    "prettier": "2.2.1",
+    "rimraf": "3.0.2",
+    "supertest": "6.0.1"
+  }
+}
