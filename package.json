@@ -1,5 +1,5 @@
 {
-  "name": "node-babel-boilerplate",
+  "name": "fastify-es2018-boilerplate",
   "version": "0.1.0",
   "description": "A minimalist Fastify ES2018 boilerplate with babel, eslint, jest, nodemon, and prettier.",
   "repository": "https://github.com/eingress/node-es2018-boilerplate.git",
