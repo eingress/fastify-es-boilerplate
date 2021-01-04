@@ -21,12 +21,13 @@
     "coverage": "jest --collectCoverageFrom=src/**/*.js --coverage",
     "lint": "eslint './{,{__tests__,src}/**/}*.js' --fix --quiet",
     "prestart": "yarn build",
-    "start": "node dist/index.js",
-    "start:dev": "NODE_ENV=development nodemon src/index.js",
+    "start": "node dist/main.js",
+    "start:dev": "NODE_ENV=development nodemon src/main.js",
     "test": "jest --silent",
     "test:watch": "jest --silent --watch"
   },
   "dependencies": {
+    "exit-hook": "2.2.0",
     "fastify": "3.9.2",
     "fastify-autoload": "3.4.0",
     "fastify-plugin": "3.0.0"
