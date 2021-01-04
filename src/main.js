@@ -1,18 +1,21 @@
-import Fastify from 'fastify';
+import onExit from 'exit-hook';
 
-import Api from './api';
+import api from './api';
 
-const { env, exit } = process;
-const { NODE_ENV, SERVER_PORT } = env;
-const logger = NODE_ENV === 'development' ? true : false;
+const { exit, stderr, stdout } = process;
 
-const server = Fastify({
-  logger,
-  pluginTimeout: 1e4,
-});
+const run = async () => {
+  try {
+    await api.run();
+  } catch (error) {
+    stderr.write(`${error}\n`);
+    exit(1);
+  }
 
-server.register(Api);
+  onExit(() => {
+    api.kill();
+    stdout.write('[API] Goodbye.\n');
+  });
+};
 
-server.listen(SERVER_PORT || 3e3, (error) => {
-  if (error) server.log.error(error) && exit(1);
-});
+run();
