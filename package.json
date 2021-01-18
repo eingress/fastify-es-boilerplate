@@ -28,7 +28,7 @@
   },
   "dependencies": {
     "exit-hook": "2.2.0",
-    "fastify": "3.9.2",
+    "fastify": "3.10.1",
     "fastify-autoload": "3.4.0",
     "fastify-plugin": "3.0.0"
   },
