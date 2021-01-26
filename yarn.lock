@@ -2478,10 +2478,10 @@ fast-safe-stringify@^2.0.7:
   resolved "https://registry.yarnpkg.com/fast-safe-stringify/-/fast-safe-stringify-2.0.7.tgz#124aa885899261f68aedb42a7c080de9da608743"
   integrity sha512-Utm6CdzT+6xsDk2m8S6uL8VHxNwI6Jub+e9NYTcAms28T84pTa25GJQV9j0CY0N1rM8hK4x6grpF2BQf+2qwVA==
 
-fastify-autoload@3.4.0:
-  version "3.4.0"
-  resolved "https://registry.yarnpkg.com/fastify-autoload/-/fastify-autoload-3.4.0.tgz#7b8ae19678b2aec6c61db9d55298ab8c0c01e69e"
-  integrity sha512-kELt4cS7Fl5CQM8yzlGCrFC6fiz+CT+y0Uiw8I3LQXY+RWH3/BgNs9uGTzrNbd2gd/vh9AIF9FR1yQInDH/UKg==
+fastify-autoload@3.4.2:
+  version "3.4.2"
+  resolved "https://registry.yarnpkg.com/fastify-autoload/-/fastify-autoload-3.4.2.tgz#81adca19779763e01daea15eb829acb3e74558e2"
+  integrity sha512-loZM9t09dLJLqjEURkYO5awQKsflDQ3cLG5Il0sJrTr4FF0cQASYRuY7gKzFvyN3WQkqpRPojGyZyaMHAa88ug==
   dependencies:
     pkg-up "^3.1.0"
     semver "^7.3.2"
@@ -2501,10 +2501,10 @@ fastify-warning@^0.2.0:
   resolved "https://registry.yarnpkg.com/fastify-warning/-/fastify-warning-0.2.0.tgz#e717776026a4493dc9a2befa44db6d17f618008f"
   integrity sha512-s1EQguBw/9qtc1p/WTY4eq9WMRIACkj+HTcOIK1in4MV5aFaQC9ZCIt0dJ7pr5bIf4lPpHvAtP2ywpTNgs7hqw==
 
-fastify@3.10.1:
-  version "3.10.1"
-  resolved "https://registry.yarnpkg.com/fastify/-/fastify-3.10.1.tgz#9a17b395e162e90c2dded93353bf2e04410884ff"
-  integrity sha512-ChjHCXbCFzftVzQ1sDD8f8Ou1uDObkcVXBJmDkzVoZSNTxDrIapg63HIy3tPwScTNyMdmikA+QbP6zkGP+cFzw==
+fastify@3.11.0:
+  version "3.11.0"
+  resolved "https://registry.yarnpkg.com/fastify/-/fastify-3.11.0.tgz#2464c9a715603e6941308f55572d08a27ea7f2a6"
+  integrity sha512-xc0mTG3cZhBrpsHh5M+xujA/xAIfBCn6DLOWPqCbIBkt0TtfeDaXpBEtlejWp13eM8SZbyXnHcR6PJaOajbY/A==
   dependencies:
     abstract-logging "^2.0.0"
     ajv "^6.12.2"
