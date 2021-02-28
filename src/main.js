@@ -1,4 +1,4 @@
-import onExit from 'exit-hook';
+import onExit from 'async-exit-hook';
 
 import api from './api';
 
