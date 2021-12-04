@@ -38,12 +38,12 @@
     "@babel/eslint-parser": "7.16.3",
     "@babel/node": "7.16.0",
     "@babel/preset-env": "7.16.4",
-    "eslint": "8.3.0",
+    "eslint": "8.4.0",
     "eslint-config-prettier": "8.3.0",
     "eslint-plugin-prettier": "4.0.0",
-    "jest": "27.3.1",
+    "jest": "27.4.3",
     "nodemon": "2.0.15",
-    "prettier": "2.5.0",
+    "prettier": "2.5.1",
     "rimraf": "3.0.2",
     "supertest": "6.1.6"
   }
