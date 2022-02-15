@@ -29,7 +29,7 @@
   "dependencies": {
     "async-exit-hook": "eingress/async-exit-hook#2f681fb",
     "fastify": "3.27.1",
-    "fastify-autoload": "3.10.0",
+    "fastify-autoload": "3.11.0",
     "fastify-plugin": "3.0.1"
   },
   "devDependencies": {
