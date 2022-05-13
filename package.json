@@ -33,18 +33,18 @@
     "fastify-plugin": "3.0.1"
   },
   "devDependencies": {
-    "@babel/cli": "7.17.6",
-    "@babel/core": "7.17.9",
+    "@babel/cli": "7.17.10",
+    "@babel/core": "7.17.10",
     "@babel/eslint-parser": "7.17.0",
-    "@babel/node": "7.16.8",
-    "@babel/preset-env": "7.16.11",
-    "eslint": "8.13.0",
+    "@babel/node": "7.17.10",
+    "@babel/preset-env": "7.17.10",
+    "eslint": "8.15.0",
     "eslint-config-prettier": "8.5.0",
     "eslint-plugin-prettier": "4.0.0",
-    "jest": "27.5.1",
-    "nodemon": "2.0.15",
+    "jest": "28.1.0",
+    "nodemon": "2.0.16",
     "prettier": "2.6.2",
     "rimraf": "3.0.2",
-    "supertest": "6.2.2"
+    "supertest": "6.2.3"
   }
 }
