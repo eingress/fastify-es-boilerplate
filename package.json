@@ -27,9 +27,9 @@
     "test:watch": "jest --silent --watch"
   },
   "dependencies": {
+    "@fastify/autoload": "4.0.0",
     "async-exit-hook": "eingress/async-exit-hook#2f681fb",
     "fastify": "3.29.0",
-    "fastify-autoload": "3.13.0",
     "fastify-plugin": "3.0.1"
   },
   "devDependencies": {

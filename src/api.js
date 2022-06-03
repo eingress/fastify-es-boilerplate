@@ -1,7 +1,7 @@
 import path from 'path';
 
 import Fastify from 'fastify';
-import AutoLoad from 'fastify-autoload';
+import AutoLoad from '@fastify/autoload';
 
 const { env, stdout } = process;
 

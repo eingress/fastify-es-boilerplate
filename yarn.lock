@@ -992,6 +992,14 @@
   dependencies:
     ajv "^6.12.6"
 
+"@fastify/autoload@4.0.0":
+  version "4.0.0"
+  resolved "https://registry.yarnpkg.com/@fastify/autoload/-/autoload-4.0.0.tgz#1fdf393613513f54a989f1b0ee8b3e1d7b956253"
+  integrity sha512-mne+IEjcMa1UsypjjyXq5WMj0rTM7JTv6mxBD2o/wq9o/v6Eeyo1bCCnRAglbw/vc9IjQp5CxMg/n5lJmXR8sQ==
+  dependencies:
+    pkg-up "^3.1.0"
+    semver "^7.3.5"
+
 "@fastify/error@^2.0.0":
   version "2.0.0"
   resolved "https://registry.yarnpkg.com/@fastify/error/-/error-2.0.0.tgz#a9f94af56eb934f0ab1ce4ef9f0ced6ebf2319dc"
@@ -2314,22 +2322,6 @@ fast-safe-stringify@^2.0.8, fast-safe-stringify@^2.1.1:
   version "2.1.1"
   resolved "https://registry.yarnpkg.com/fast-safe-stringify/-/fast-safe-stringify-2.1.1.tgz#c406a83b6e70d9e35ce3b30a81141df30aeba884"
   integrity sha512-W+KJc2dmILlPplD/H4K9l9LcAHAfPtP6BY84uVLXQ6Evcz9Lcg33Y2z1IVblT6xdY54PXYVHEv+0Wpq8Io6zkA==
-
-"fastify-autoload-deprecated@npm:fastify-autoload@3.12.0":
-  version "3.12.0"
-  resolved "https://registry.yarnpkg.com/fastify-autoload/-/fastify-autoload-3.12.0.tgz#912c7c48c83e732cc76919b4f3713ee884fc8557"
-  integrity sha512-qm8HG8V24A0AdcIjGMMTnyKQj6yzEbdcXHbWjzPtYPReGo4D4Ki7oRLDocYQJVpaOxlcLJSbadfMhZTu3+G6oQ==
-  dependencies:
-    pkg-up "^3.1.0"
-    semver "^7.3.5"
-
-fastify-autoload@3.13.0:
-  version "3.13.0"
-  resolved "https://registry.yarnpkg.com/fastify-autoload/-/fastify-autoload-3.13.0.tgz#1de1b45c5ff98a022643140a39cc868b18ff9442"
-  integrity sha512-+Dbsf7wUxf9KLBHnbcdI1MTUGPHAnjWnbbq1bZm4+b2ghX+goK8HBkWOpS4JK1GAiripoDoyUBw18wu8uDZKuA==
-  dependencies:
-    fastify-autoload-deprecated "npm:fastify-autoload@3.12.0"
-    process-warning "^1.0.0"
 
 fastify-plugin@3.0.1:
   version "3.0.1"
