@@ -33,10 +33,10 @@
     "fastify-plugin": "4.4.0"
   },
   "devDependencies": {
-    "@babel/cli": "7.19.3",
-    "@babel/core": "7.20.5",
+    "@babel/cli": "7.20.7",
+    "@babel/core": "7.20.7",
     "@babel/eslint-parser": "7.19.1",
-    "@babel/node": "7.20.5",
+    "@babel/node": "7.20.7",
     "@babel/preset-env": "7.20.2",
     "eslint": "8.30.0",
     "eslint-config-prettier": "8.5.0",
