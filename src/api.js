@@ -19,7 +19,7 @@ const run = async (opts) => {
   _api.register(AutoLoad, { dir: path.join(__dirname, 'plugins') });
   _api.register(AutoLoad, { dir: path.join(__dirname, 'routes') });
 
-  await _api.listen(API_PORT, API_ADDRESS);
+  await _api.listen({ address: API_ADDRESS, port: API_PORT });
   stdout.write(`[API] Available at http://${API_ADDRESS}:${API_PORT}\n`);
 };
 
