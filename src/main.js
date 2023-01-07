@@ -8,9 +8,9 @@ const API_OPTS = {
   // See https://www.fastify.io/docs/latest/Server
 };
 
-const run = async () => {
+const run = () => {
   try {
-    await api.run(API_OPTS);
+    api.run(API_OPTS);
   } catch (error) {
     stderr.write(`${error}\n`);
     exit(1);
