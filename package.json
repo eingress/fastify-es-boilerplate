@@ -1,16 +1,16 @@
 {
-  "name": "fastify-es2018-boilerplate",
-  "version": "0.1.0",
-  "description": "A minimalist Fastify ES2018 boilerplate with babel, eslint, jest, nodemon, and prettier.",
-  "repository": "https://github.com/eingress/node-es2018-boilerplate.git",
+  "name": "fastify-es-boilerplate",
+  "version": "1.0.0",
+  "description": "A minimalist Fastify ECMAScript boilerplate with babel, eslint, nodemon, and prettier.",
+  "repoitory": "https://github.com/eingress/node-es-boilerplate.git",
   "author": "Scott Mathieson <scott@eingress.io>",
   "license": "ISC",
   "keywords": [
     "babel",
     "eslint",
     "fastify",
-    "jest",
     "node",
+    "nodemon",
     "prettier",
     "supertest"
   ],
@@ -18,13 +18,13 @@
     "build": "yarn build:clean && babel src -d dist",
     "build:clean": "rimraf dist/*",
     "build:watch": "yarn build -w",
-    "coverage": "jest --collectCoverageFrom=src/**/*.js --coverage",
-    "lint": "eslint './{,{__tests__,src}/**/}*.js' --fix --quiet",
+    "coverage": "node --experimental-test-coverage --test tests/*",
+    "lint": "eslint './{,{src,tests}/**/}*.js' --fix --quiet",
     "prestart": "yarn build",
     "start": "node dist/main.js",
     "start:dev": "NODE_ENV=development nodemon src/main.js",
-    "test": "jest --silent",
-    "test:watch": "jest --silent --watch"
+    "test": "node --test tests/*",
+    "test:watch": "node --test --watch tests/*"
   },
   "dependencies": {
     "@fastify/autoload": "5.7.1",
@@ -41,7 +41,6 @@
     "eslint": "8.43.0",
     "eslint-config-prettier": "8.8.0",
     "eslint-plugin-prettier": "4.2.1",
-    "jest": "29.5.0",
     "nodemon": "2.0.22",
     "prettier": "2.8.8",
     "rimraf": "5.0.1",
