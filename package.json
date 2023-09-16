@@ -29,16 +29,16 @@
   "dependencies": {
     "@fastify/autoload": "5.7.1",
     "async-exit-hook": "eingress/async-exit-hook#2f681fb",
-    "fastify": "4.22.2",
+    "fastify": "4.23.2",
     "fastify-plugin": "4.5.1"
   },
   "devDependencies": {
     "@babel/cli": "7.22.15",
-    "@babel/core": "7.22.17",
+    "@babel/core": "7.22.19",
     "@babel/eslint-parser": "7.22.15",
-    "@babel/node": "7.22.15",
+    "@babel/node": "7.22.19",
     "@babel/preset-env": "7.22.15",
-    "eslint": "8.48.0",
+    "eslint": "8.49.0",
     "eslint-config-prettier": "9.0.0",
     "eslint-plugin-prettier": "5.0.0",
     "nodemon": "3.0.1",
