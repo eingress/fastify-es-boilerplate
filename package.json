@@ -34,10 +34,10 @@
   },
   "devDependencies": {
     "@babel/cli": "7.22.15",
-    "@babel/core": "7.22.19",
+    "@babel/core": "7.22.20",
     "@babel/eslint-parser": "7.22.15",
     "@babel/node": "7.22.19",
-    "@babel/preset-env": "7.22.15",
+    "@babel/preset-env": "7.22.20",
     "eslint": "8.49.0",
     "eslint-config-prettier": "9.0.0",
     "eslint-plugin-prettier": "5.0.0",
