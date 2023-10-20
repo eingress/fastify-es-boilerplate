@@ -27,23 +27,23 @@
     "test:watch": "node --test --watch tests/*"
   },
   "dependencies": {
-    "@fastify/autoload": "5.7.1",
+    "@fastify/autoload": "5.8.0",
     "async-exit-hook": "eingress/async-exit-hook#2f681fb",
     "fastify": "4.24.3",
     "fastify-plugin": "4.5.1"
   },
   "devDependencies": {
-    "@babel/cli": "7.22.15",
-    "@babel/core": "7.22.20",
+    "@babel/cli": "7.23.0",
+    "@babel/core": "7.23.2",
     "@babel/eslint-parser": "7.22.15",
     "@babel/node": "7.22.19",
-    "@babel/preset-env": "7.22.20",
-    "eslint": "8.50.0",
+    "@babel/preset-env": "7.23.2",
+    "eslint": "8.51.0",
     "eslint-config-prettier": "9.0.0",
-    "eslint-plugin-prettier": "5.0.0",
+    "eslint-plugin-prettier": "5.0.1",
     "nodemon": "3.0.1",
     "prettier": "3.0.3",
-    "rimraf": "5.0.1",
+    "rimraf": "5.0.5",
     "supertest": "6.3.3"
   }
 }
