@@ -1920,10 +1920,10 @@ fastify-plugin@4.5.1:
   resolved "https://registry.yarnpkg.com/fastify-plugin/-/fastify-plugin-4.5.1.tgz#44dc6a3cc2cce0988bc09e13f160120bbd91dbee"
   integrity sha512-stRHYGeuqpEZTL1Ef0Ovr2ltazUT9g844X5z/zEBFLG8RYlpDiOCIG+ATvYEp+/zmc7sN29mcIMp8gvYplYPIQ==
 
-fastify@4.25.2:
-  version "4.25.2"
-  resolved "https://registry.yarnpkg.com/fastify/-/fastify-4.25.2.tgz#ce725c9f457149244ebfec848468fa3550f0981f"
-  integrity sha512-SywRouGleDHvRh054onj+lEZnbC1sBCLkR0UY3oyJwjD4BdZJUrxBqfkfCaqn74pVCwBaRHGuL3nEWeHbHzAfw==
+fastify@4.26.0:
+  version "4.26.0"
+  resolved "https://registry.yarnpkg.com/fastify/-/fastify-4.26.0.tgz#d32ad76e31bfc451230abfa2f3834c107573776f"
+  integrity sha512-Fq/7ziWKc6pYLYLIlCRaqJqEVTIZ5tZYfcW/mDK2AQ9v/sqjGFpj0On0/7hU50kbPVjLO4de+larPA1WwPZSfw==
   dependencies:
     "@fastify/ajv-compiler" "^3.5.0"
     "@fastify/error" "^3.4.0"
@@ -1932,7 +1932,7 @@ fastify@4.25.2:
     avvio "^8.2.1"
     fast-content-type-parse "^1.1.0"
     fast-json-stringify "^5.8.0"
-    find-my-way "^7.7.0"
+    find-my-way "^8.0.0"
     light-my-request "^5.11.0"
     pino "^8.17.0"
     process-warning "^3.0.0"
@@ -1972,10 +1972,10 @@ find-cache-dir@^2.0.0:
     make-dir "^2.0.0"
     pkg-dir "^3.0.0"
 
-find-my-way@^7.7.0:
-  version "7.7.0"
-  resolved "https://registry.yarnpkg.com/find-my-way/-/find-my-way-7.7.0.tgz#d7b51ca6046782bcddd5a8435e99ad057e5a8876"
-  integrity sha512-+SrHpvQ52Q6W9f3wJoJBbAQULJuNEEQwBvlvYwACDhBTLOTMiQ0HYWh4+vC3OivGP2ENcTI1oKlFA2OepJNjhQ==
+find-my-way@^8.0.0:
+  version "8.1.0"
+  resolved "https://registry.yarnpkg.com/find-my-way/-/find-my-way-8.1.0.tgz#cc05e8e4b145322299d0de0a839b5be528c2083e"
+  integrity sha512-41QwjCGcVTODUmLLqTMeoHeiozbMXYMAE1CKFiDyi9zVZ2Vjh0yz3MF0WQZoIb+cmzP/XlbFjlF2NtJmvZHznA==
   dependencies:
     fast-deep-equal "^3.1.3"
     fast-querystring "^1.0.0"
@@ -3219,6 +3219,7 @@ split2@^4.0.0:
   integrity sha512-UcjcJOWknrNkF6PLX83qcHM6KHgVKNkV62Y8a5uYDVv9ydGQVwAHMKqHdJje1VTWpljG0WYpCDhrCdAOYH4TWg==
 
 "string-width-cjs@npm:string-width@^4.2.0", string-width@^4.1.0:
+  name string-width-cjs
   version "4.2.3"
   resolved "https://registry.yarnpkg.com/string-width/-/string-width-4.2.3.tgz#269c7117d27b05ad2e536830a8ec895ef9c6d010"
   integrity sha512-wKyQRQpjJ0sIp62ErSZdGsjMJWsap5oRNihHhu6G7JVO/9jIB6UyevL+tXuOqrng8j/cxKTWyWUwvSTriiZz/g==
