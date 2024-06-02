@@ -27,7 +27,7 @@
     "test:watch": "node --test --watch tests/*"
   },
   "dependencies": {
-    "@fastify/autoload": "5.8.2",
+    "@fastify/autoload": "5.8.3",
     "async-exit-hook": "eingress/async-exit-hook#2f681fb",
     "fastify": "4.27.0",
     "fastify-plugin": "4.5.1"
@@ -38,11 +38,11 @@
     "@babel/eslint-parser": "7.24.6",
     "@babel/node": "7.24.6",
     "@babel/preset-env": "7.24.6",
-    "eslint": "9.3.0",
+    "eslint": "9.4.0",
     "eslint-config-prettier": "9.1.0",
     "eslint-plugin-prettier": "5.1.3",
     "nodemon": "3.1.2",
-    "prettier": "3.2.5",
+    "prettier": "3.3.0",
     "rimraf": "5.0.7",
     "supertest": "7.0.0"
   }
