@@ -18,7 +18,7 @@ const run = () => {
 
   onExit(() => {
     api.kill();
-    stdout.write('[API] Goodbye.\n');
+    stdout.write('\n[API] Goodbye.\n');
   });
 };
 
