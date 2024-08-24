@@ -7,11 +7,9 @@ const ico = Buffer.from(
   'base64',
 ).toString('binary');
 
-export default fp(async (fastify, _, next) => {
+export default fp(async (fastify) => {
   fastify.get('/favicon.ico', (_, reply) => {
     reply.header('Content-Type', 'image/x-icon');
     reply.send(ico);
   });
-
-  next();
 });
