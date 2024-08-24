@@ -1,6 +1,6 @@
 {
   "name": "fastify-es-boilerplate",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "A minimalist Fastify ECMAScript boilerplate with babel, eslint, nodemon, and prettier.",
   "repoitory": "https://github.com/eingress/node-es-boilerplate.git",
   "author": "Scott Mathieson <scott@eingress.io>",
