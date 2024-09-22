@@ -30,7 +30,7 @@
     "@fastify/autoload": "6.0.0",
     "async-exit-hook": "eingress/async-exit-hook#2f681fb",
     "fastify": "5.0.0",
-    "fastify-plugin": "5.0.0"
+    "fastify-plugin": "5.0.1"
   },
   "devDependencies": {
     "@babel/cli": "7.25.6",
