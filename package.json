@@ -27,7 +27,7 @@
     "test:watch": "node --test --watch tests/*"
   },
   "dependencies": {
-    "@fastify/autoload": "6.0.1",
+    "@fastify/autoload": "6.0.2",
     "async-exit-hook": "eingress/async-exit-hook#2f681fb",
     "fastify": "5.0.0",
     "fastify-plugin": "5.0.1"
